@@ -1,4 +1,4 @@
 name: dashboard-plugin
 summary: dashboard-plugin interface
 version: 1
-repo: gogs@git01.maas:martin/designate-dashboard-interface.git
+repo: https://github.com/MartinHell/charm-interface-dashboard-plugin.git
