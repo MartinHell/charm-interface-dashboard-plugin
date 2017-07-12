@@ -10,4 +10,4 @@ class DashboardPlugin(RelationBase):
 
     @hook('{requires:dashboard-plugin}-relation-{departed,broken}')
     def broken(self):
-        self.remove_state({relation_name}.available)
+        self.remove_state('{relation_name}.available')
